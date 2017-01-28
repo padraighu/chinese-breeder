@@ -156,7 +156,6 @@ def main():
 			else:
 				plt.savefig('zi\\'+str(i)+'b.jpg')
 		gen.next_gen()
-	gen.display_best(5, 10)
 
 test_generation = False
 test_image = False
